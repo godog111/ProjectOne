@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c671514530503e47ba8c71800df9115, type: 3}
+  m_Name: LevelConfig_1
+  m_EditorClassIdentifier: 
+  levelID: 1
+  l_name: 
+  audio: {fileID: 0}
+  player: {fileID: 8316087055124951734, guid: 5ebb9e3bdd5d7cc4097206efc059210a, type: 3}
+  background: {fileID: 1054292844851797630, guid: 8bb638c0d96cd0342b826aa3ebb8effd, type: 3}
+  playerPositon: {x: 10, y: 10, z: 0}
+  npcsInLevel: []

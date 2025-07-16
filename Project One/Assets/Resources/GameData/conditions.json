@@ -1,0 +1,32 @@
+{
+  "conditions": [
+    {
+      "Ctype": "VisitedLocation",
+      "id": "sword",
+      "displayName": "钢铁长剑",
+      "description": "玩家是否获得了基础武器钢铁长剑",
+      "defaultValue": false
+    },
+    {
+      "Ctype": "QuestCompleted",
+      "id": "starting_village",
+      "displayName": "玩家是否访问过起始村庄",
+      "description": "新手村",
+      "defaultValue": false
+    },
+    {
+      "Ctype": "QuestCompleted",
+      "id": "main_quest_1",
+      "displayName": "新手村",
+      "description": "钢铁长剑",
+      "defaultValue": false
+    },
+    {
+      "Ctype": "CustomFlag",
+      "id": "dialogue_1",
+      "displayName": "新手村",
+      "description": "钢铁长剑",
+      "defaultValue": false
+    }
+  ]
+}

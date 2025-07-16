@@ -1,0 +1,116 @@
+{
+  "NPC_Base": [
+    {
+      "npcId": 1.0,
+      "npcName": "雷探长",
+      "portraitPath": "Portraits/1",
+      "condition": "level_gt:5",
+      "isDialogue": true,
+      "dialogue_ID": 2001.0
+    },
+    {
+      "npcId": 2.0,
+      "npcName": "红衣老头",
+      "portraitPath": "Portraits/2",
+      "condition": "level_gt:5",
+      "isDialogue": true,
+      "dialogue_ID": 2001.0
+    },
+    {
+      "npcId": 3.0,
+      "npcName": "白色恶魔",
+      "portraitPath": "Portraits/3",
+      "condition": "level_gt:5",
+      "isDialogue": true,
+      "dialogue_ID": 2001.0
+    },
+    {
+      "npcId": 4.0,
+      "npcName": "雷探长",
+      "portraitPath": "Portraits/1",
+      "condition": "level_gt:5",
+      "isDialogue": true,
+      "dialogue_ID": 2001.0
+    },
+    {
+      "npcId": 5.0,
+      "npcName": "红衣老头",
+      "portraitPath": "Portraits/2",
+      "condition": "level_gt:5",
+      "isDialogue": true,
+      "dialogue_ID": 2001.0
+    },
+    {
+      "npcId": 6.0,
+      "npcName": "白色恶魔",
+      "portraitPath": "Portraits/3",
+      "condition": "level_gt:5",
+      "isDialogue": true,
+      "dialogue_ID": 2001.0
+    },
+    {
+      "npcId": 7.0,
+      "npcName": "雷探长",
+      "portraitPath": "Portraits/1",
+      "condition": "level_gt:5",
+      "isDialogue": true,
+      "dialogue_ID": 2001.0
+    },
+    {
+      "npcId": 8.0,
+      "npcName": "红衣老头",
+      "portraitPath": "Portraits/2",
+      "condition": "level_gt:5",
+      "isDialogue": true,
+      "dialogue_ID": 2001.0
+    },
+    {
+      "npcId": 9.0,
+      "npcName": "白色恶魔",
+      "portraitPath": "Portraits/3",
+      "condition": "level_gt:5",
+      "isDialogue": true,
+      "dialogue_ID": 2001.0
+    },
+    {
+      "npcId": 10.0,
+      "npcName": "雷探长",
+      "portraitPath": "Portraits/1",
+      "condition": "level_gt:5",
+      "isDialogue": true,
+      "dialogue_ID": 2001.0
+    },
+    {
+      "npcId": 11.0,
+      "npcName": "红衣老头",
+      "portraitPath": "Portraits/2",
+      "condition": "level_gt:5",
+      "isDialogue": true,
+      "dialogue_ID": 2001.0
+    },
+    {
+      "npcId": 12.0,
+      "npcName": "白色恶魔",
+      "portraitPath": "Portraits/3",
+      "condition": "level_gt:5",
+      "isDialogue": true,
+      "dialogue_ID": 2001.0
+    },
+    {
+      "npcId": 13.0,
+      "npcName": "雷探长",
+      "portraitPath": "Portraits/1",
+      "condition": "level_gt:5",
+      "isDialogue": true,
+      "dialogue_ID": 2001.0
+    },
+    {
+      "npcId": 14.0,
+      "npcName": "红衣老头",
+      "portraitPath": "Portraits/2",
+      "condition": "level_gt:5",
+      "isDialogue": true,
+      "dialogue_ID": 2001.0
+    }
+  ]
+}

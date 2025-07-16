@@ -1,0 +1,544 @@
+{
+  "Dialogue_Content": [
+    {
+      "dialogueId": 2001.0,
+      "npcId": 1.0,
+      "text": "事发突然，很抱歉在那么晚的时候打扰你。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2002.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2002.0,
+      "npcId": 0.0,
+      "text": "坐下吧，我来听听这次杀人案的情况。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2003.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2003.0,
+      "npcId": 1.0,
+      "text": "你都知道了？",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2004.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2004.0,
+      "npcId": 0.0,
+      "text": "你冒雨过来，没带雨伞，说明你来的很急，脚上穿着鞋套，说明你是从现场直接过来的。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2005.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2005.0,
+      "npcId": 0.0,
+      "text": "需要带上鞋套不破坏现场，又让你那么急冒雨过来，只能是杀人案了。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2006.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2006.0,
+      "npcId": 0.0,
+      "text": "海滨市好多年，没有杀人案了。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2007.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2007.0,
+      "npcId": 1.0,
+      "text": "对的，这次比较棘手。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2008.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2008.0,
+      "npcId": 1.0,
+      "text": "是智械人杀人。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2009.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2009.0,
+      "npcId": 1.0,
+      "text": "死者，是斯莫克。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2010.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2010.0,
+      "npcId": 0.0,
+      "text": "他….是....斯莫克。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2011.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2011.0,
+      "npcId": 1.0,
+      "text": "对的，致力于推广机器人改革的议员。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2012.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2012.0,
+      "npcId": 0.0,
+      "text": "难怪你会半夜找到我，明天登报估计会有不小的风险。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2013.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2013.0,
+      "npcId": 1.0,
+      "text": "所以如果能在你这里得到一部分答案，明天的记者发布会，我们或许能有一些理由，让这件事不会影响太大。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2014.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2014.0,
+      "npcId": 0.0,
+      "text": "背后，击杀。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2015.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2015.0,
+      "npcId": 0.0,
+      "text": "我理解你的意思了。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2016.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2016.0,
+      "npcId": 0.0,
+      "text": "（机器人如果是意外，不会有这种背后偷袭的情况，能偷袭的话，必然是有主动意识进行这样的伏击）",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_1",
+      "nextDialogueId": 0.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2017.0,
+      "npcId": 0.0,
+      "text": "凶器是？",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2018.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2018.0,
+      "npcId": 1.0,
+      "text": "是一个客厅的摆件。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2019.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2019.0,
+      "npcId": 1.0,
+      "text": "检查过了，上面都是灰尘，只有一个手印。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2020.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2020.0,
+      "npcId": 1.0,
+      "text": "和嫌疑人的手可以对上。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2021.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2021.0,
+      "npcId": 0.0,
+      "text": "灰尘？平时没有做保养吗？",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_1",
+      "nextDialogueId": 2022.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2022.0,
+      "npcId": 1.0,
+      "text": "似乎没有，平时放在柜子上的时候，也不会专门进行打扫。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_1",
+      "nextDialogueId": 0.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2023.0,
+      "npcId": 0.0,
+      "text": "作为一个海滨市有名的富豪，他的房间出奇的简陋。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_2",
+      "nextDialogueId": 2024.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2024.0,
+      "npcId": 1.0,
+      "text": "令人意外的是，他除了这个保姆机器人，整个房间都不太使用电子产品。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_3",
+      "nextDialogueId": 2025.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2025.0,
+      "npcId": 0.0,
+      "text": "…....",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_4",
+      "nextDialogueId": 2026.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2026.0,
+      "npcId": 1.0,
+      "text": "这在现在的家庭很不常见，尤其是富豪家庭。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_5",
+      "nextDialogueId": 2027.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2027.0,
+      "npcId": 0.0,
+      "text": "和他一般的言论也有很大的出入。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_6",
+      "nextDialogueId": 2028.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2028.0,
+      "npcId": 0.0,
+      "text": "那他身上呢？手机，手表。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_7",
+      "nextDialogueId": 2029.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2029.0,
+      "npcId": 1.0,
+      "text": "好像怕商业窃听，到了他自己的住宅位置，这些电子设备都会放在大门外，由保安机器人管理。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_8",
+      "nextDialogueId": 2030.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2030.0,
+      "npcId": 0.0,
+      "text": "所以这是一个电子密室。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_9",
+      "nextDialogueId": 2031.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2031.0,
+      "npcId": 1.0,
+      "text": "对。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_10",
+      "nextDialogueId": 0.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2032.0,
+      "npcId": 0.0,
+      "text": "这个就是嫌疑人吗？是RX-87型号。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2033.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2033.0,
+      "npcId": 0.0,
+      "text": "这是五年前的保姆机器人，主要负责家里的所有家务细节。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2034.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2034.0,
+      "npcId": 1.0,
+      "text": "对的，五年前上架的旧款机器人。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2035.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2035.0,
+      "npcId": 0.0,
+      "text": "对于斯莫克这个身份来说，确实是有点老旧的款式。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2036.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2036.0,
+      "npcId": 1.0,
+      "text": "这或许才是问题。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2037.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2037.0,
+      "npcId": 1.0,
+      "text": "如果是新款机器人的话，或许还能以新制作，程序bug等方式搪塞过去。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2038.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2038.0,
+      "npcId": 1.0,
+      "text": "但是旧款机器人，甚至系统已经好久没有更新了。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2039.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2039.0,
+      "npcId": 1.0,
+      "text": "所以，更可能会被认为是…....",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2040.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2040.0,
+      "npcId": 0.0,
+      "text": "智械人觉醒吗。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2041.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2041.0,
+      "npcId": 0.0,
+      "text": "。。。。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2042.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2042.0,
+      "npcId": 0.0,
+      "text": "嫌疑人呢？",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2043.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2043.0,
+      "npcId": 0.0,
+      "text": "控制住了吗？",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2044.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2044.0,
+      "npcId": 1.0,
+      "text": "逃了。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2045.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2045.0,
+      "npcId": 1.0,
+      "text": "目前还在进行追踪，但是似乎她关闭了所有电子追踪器。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2046.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2046.0,
+      "npcId": 0.0,
+      "text": "有共犯吗？",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2047.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2047.0,
+      "npcId": 1.0,
+      "text": "可能性很高。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_10",
+      "nextDialogueId": 0.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2048.0,
+      "npcId": 0.0,
+      "text": "…...",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2049.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2049.0,
+      "npcId": 1.0,
+      "text": "怎么样？",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2050.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2050.0,
+      "npcId": 0.0,
+      "text": "所以你认为，是一次智械人觉醒，并且击杀雇主的情况吗？",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2051.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2051.0,
+      "npcId": 1.0,
+      "text": "对，如果真是这样，智械人的使用必定会有很多新的问题。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2052.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2052.0,
+      "npcId": 1.0,
+      "text": "目前有几个公司已经开始铺垫更多类型的智械人了，保姆机器人原本只是最基础的工种。",
+      "portraitOverride": "Portraits/1",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2053.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2053.0,
+      "npcId": 0.0,
+      "text": "我无法理解给你答案。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_10",
+      "nextDialogueId": 2054.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    },
+    {
+      "dialogueId": 2054.0,
+      "npcId": 0.0,
+      "text": "我需要些时间思考。",
+      "portraitOverride": "Portraits/2",
+      "condition": "dialogue_10",
+      "nextDialogueId": 0.0,
+      "optionID": 0.0,
+      "isDirtor": "per0"
+    }
+  ]
+}

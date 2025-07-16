@@ -1,0 +1,151 @@
+{
+    "npcs": [
+        {
+            "npcId": 1,
+            "npcName": "老骑士",
+            "portraitPath": "Portraits/1"
+        }
+    ],
+    "dialogues": [
+        {
+            "dialogueId": 2001,
+            "npcId": 1,
+            "text": "\"你好，勇士！\"",
+            "portraitOverride": "Portraits/1",
+            "condition": "\"level_gt:5\"",
+            "triggerEvent": "QUEST_ACCEPT",
+            "nextDialogueId": 2002,
+            "options": []
+        },
+        {
+            "dialogueId": 2002,
+            "npcId": 1,
+            "text": "\"我准备好了1\"",
+            "portraitOverride": "Portraits/1",
+            "condition": "\"level_gt:5\"",
+            "triggerEvent": "QUEST_ACCEPT",
+            "nextDialogueId": 2003,
+            "options": []
+        },
+        {
+            "dialogueId": 2003,
+            "npcId": 1,
+            "text": "\"我准备好了2\"",
+            "portraitOverride": "Portraits/1",
+            "condition": "\"level_gt:5\"",
+            "triggerEvent": "QUEST_ACCEPT",
+            "nextDialogueId": 2004,
+            "options": []
+        },
+        {
+            "dialogueId": 2004,
+            "npcId": 1,
+            "text": "\"我准备好了3\"",
+            "portraitOverride": "Portraits/1",
+            "condition": "\"level_gt:5\"",
+            "triggerEvent": "QUEST_ACCEPT",
+            "nextDialogueId": 2005,
+            "options": []
+        },
+        {
+            "dialogueId": 2005,
+            "npcId": 1,
+            "text": "\"我准备好了4\"",
+            "portraitOverride": "Portraits/1",
+            "condition": "\"level_gt:5\"",
+            "triggerEvent": "QUEST_ACCEPT",
+            "nextDialogueId": 2006,
+            "options": []
+        },
+        {
+            "dialogueId": 2006,
+            "npcId": 1,
+            "text": "\"我准备好了5\"",
+            "portraitOverride": "Portraits/1",
+            "condition": "\"level_gt:5\"",
+            "triggerEvent": "0",
+            "nextDialogueId": 2007,
+            "options": []
+        },
+        {
+            "dialogueId": 2007,
+            "npcId": 1,
+            "text": "\"我准备好了6\"",
+            "portraitOverride": "Portraits/1",
+            "condition": "\"level_gt:5\"",
+            "triggerEvent": "0",
+            "nextDialogueId": 2008,
+            "options": []
+        },
+        {
+            "dialogueId": 2008,
+            "npcId": 1,
+            "text": "\"我准备好了7\"",
+            "portraitOverride": "Portraits/1",
+            "condition": "\"level_gt:5\"",
+            "triggerEvent": "0",
+            "nextDialogueId": 2009,
+            "options": []
+        },
+        {
+            "dialogueId": 2009,
+            "npcId": 1,
+            "text": "\"我准备好了8\"",
+            "portraitOverride": "Portraits/1",
+            "condition": "\"level_gt:5\"",
+            "triggerEvent": "0",
+            "nextDialogueId": 2010,
+            "options": []
+        },
+        {
+            "dialogueId": 2010,
+            "npcId": 1,
+            "text": "\"我准备好了9\"",
+            "portraitOverride": "Portraits/1",
+            "condition": "\"level_gt:5\"",
+            "triggerEvent": "0",
+            "nextDialogueId": 2011,
+            "options": []
+        },
+        {
+            "dialogueId": 2011,
+            "npcId": 1,
+            "text": "\"我准备好了10\"",
+            "portraitOverride": "Portraits/1",
+            "condition": "\"level_gt:5\"",
+            "triggerEvent": "0",
+            "nextDialogueId": 2012,
+            "options": []
+        },
+        {
+            "dialogueId": 2012,
+            "npcId": 1,
+            "text": "\"我准备好了11\"",
+            "portraitOverride": "Portraits/1",
+            "condition": "\"level_gt:5\"",
+            "triggerEvent": "0",
+            "nextDialogueId": 2013,
+            "options": []
+        },
+        {
+            "dialogueId": 2013,
+            "npcId": 1,
+            "text": "\"我准备好了12\"",
+            "portraitOverride": "Portraits/1",
+            "condition": "\"level_gt:5\"",
+            "triggerEvent": "0",
+            "nextDialogueId": 2014,
+            "options": []
+        },
+        {
+            "dialogueId": 2014,
+            "npcId": 1,
+            "text": "\"我准备好了13\"",
+            "portraitOverride": "Portraits/1",
+            "condition": "\"level_gt:5\"",
+            "triggerEvent": "0",
+            "nextDialogueId": 0,
+            "options": []
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+  "rg": [
+    {
+      "levelId": 1.0,
+      "music": "\"星之扉 - 星之扉\"",
+      "prefab": "\"1111\"",
+      "health": 5.0,
+      "points": 1.0
+    },
+    {
+      "levelId": 2.0,
+      "music": "\"星之扉 - 星之扉\"",
+      "prefab": "\"1111\"",
+      "health": 5.0,
+      "points": 2.0
+    },
+    {
+      "levelId": 3.0,
+      "music": "\"星之扉 - 星之扉\"",
+      "prefab": "\"1111\"",
+      "health": 5.0,
+      "points": 3.0
+    },
+    {
+      "levelId": 4.0,
+      "music": "\"星之扉 - 星之扉\"",
+      "prefab": "\"1111\"",
+      "health": 5.0,
+      "points": 4.0
+    },
+    {
+      "levelId": 5.0,
+      "music": "\"星之扉 - 星之扉\"",
+      "prefab": "\"1111\"",
+      "health": 5.0,
+      "points": 5.0
+    }
+  ]
+}

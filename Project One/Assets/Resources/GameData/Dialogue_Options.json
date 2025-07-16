@@ -1,0 +1,12 @@
+{
+  "Dialogue_Options": [
+    {
+      "optionId": 3001.0,
+      "dialogue_ID": 2001.0,
+      "optionText": "\"点我进入游戏内\" ",
+      "res": "openGame",
+      "resArges": 3.0,
+      "nextDialogueId": 0.0
+    }
+  ]
+}

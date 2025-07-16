@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9a4a6dd6e94f694b9fc04dd4817409a, type: 3}
+  m_Name: tuili
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: b7e630ade88fe70409b628f153db728e, type: 3}
+  noteTimes:
+  - 0.33
+  - 2.66
+  - 5.33
+  - 8
+  - 10.66
+  - 13.33
+  - 16
+  - 18.66
+  - 21.33
+  - 24
+  - 26.67
+  - 29.34
+  - 32
+  - 34.66
+  - 37.33
+  - 40
+  - 42.66
+  - 45.33
+  - 48
+  - 50.66
+  - 53.33
+  - 56
+  - 58.66
+  - 61.33
+  - 64
+  - 66.67
+  - 69.34
+  - 72
+  - 74.66

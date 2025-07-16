@@ -1,0 +1,1962 @@
+fileFormatVersion: 2
+guid: 5c434093db8ed824ab9fabcbcdea5a93
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: $SMS2X_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1260
+        width: 120
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8495fe080eb41046990d23f35df0e4b
+      internalID: 1562476986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1370
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b47a23e98c8c044ca8acdcc4022963a
+      internalID: -1395093100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1260
+        width: 119
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c105c41bf2139ac4fa0e510364d0f71f
+      internalID: -101946898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_3
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1260
+        width: 119
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b302bc788a6bba4a8b82a22a5d8dc48
+      internalID: -39593500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_4
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1370
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0689f4a6c59d234796df0d18b4cd3ae
+      internalID: 560583426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_5
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1260
+        width: 120
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff44674ed10b39498c5688653eb5b70
+      internalID: 768004786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_6
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1260
+        width: 119
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b090e44162cd149a57fca86849d787
+      internalID: 1114833540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_7
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1370
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a991515ab40a0014f896900a35edf8b0
+      internalID: 361217041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_8
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1260
+        width: 119
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a56b3b1593fd11498b1dc7d302fd9b7
+      internalID: -124108604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_9
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1260
+        width: 120
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61762495a746aa4290229496e2f9713
+      internalID: -1002298890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_10
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1370
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223e9028119e2cf4c88d8d9e64ce22b4
+      internalID: -40302719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_11
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1260
+        width: 119
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69436de108737347b57c5f188528247
+      internalID: -1214605919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_12
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 1260
+        width: 119
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c395408c424f446a42584573d48319
+      internalID: -1546332796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_13
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1370
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92392516a3a0c54c9993f0f18c76ab9
+      internalID: 1016164552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_14
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1260
+        width: 120
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d9562d7b0313644b7f37b4ddf74614
+      internalID: -810574562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_15
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1346
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaac0f8ed9bb6a44cb8c3fc2945c66bf
+      internalID: 1411222942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_16
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1346
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26522d85d039ec448639b18f3e443bf
+      internalID: -45602014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_17
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1346
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e334b560a2e5f489c341cd0f3f6d3f
+      internalID: -994572541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_18
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1346
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff61a1b5b5305214c8a77e04d6817e12
+      internalID: 637044441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_19
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1346
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6ee7b321d4193489196dc92ef332cd
+      internalID: 503416027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_20
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1346
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b9d0d8468f47346878c7535e383a20
+      internalID: 1070771392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_21
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1346
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e43dc167d0a16438aad4a6f2c25c79
+      internalID: 432671301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_22
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1346
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a688ddcb7ae35409211fee6eaaa1e9
+      internalID: -1823251647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_23
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 1346
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851fb5427873bb448ac3a55a827e0ed3
+      internalID: 1261359031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_24
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1346
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6d260405f11ab4a93a660be558f238
+      internalID: 935672762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 840
+        width: 107
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a1a2df33fc9b447bb46919e949e269
+      internalID: 2077313579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_26
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1108
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644287f2195669d42bfdb67b588857a7
+      internalID: 1388341032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_27
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 840
+        width: 116
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62071b31118f3bd4d95835d9572b3303
+      internalID: -297725085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_28
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 840
+        width: 127
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2815cb6712b8e14781c463b66610d11
+      internalID: -1035211989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_29
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 840
+        width: 139
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1ed744c5a9394409c202a9cd2a50e9
+      internalID: 666913520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_30
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 840
+        width: 124
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c783d02b706c0145866d8e858f7161f
+      internalID: -1464964614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_31
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 840
+        width: 116
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f22f5d8f2f7654f9f57d25b0ff5fbc
+      internalID: -476754740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_32
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 840
+        width: 116
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52922bcae0c98524b9e9fb85f259adc1
+      internalID: -651341705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_33
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 840
+        width: 134
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f184dd2f5555b5c46a0f627d629879fd
+      internalID: 1357960750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_34
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 840
+        width: 118
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6613aaf8e9701a46a56b330e1576afd
+      internalID: -625888309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_35
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 840
+        width: 116
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfbb9d43e6d9ea4da118b6c771d5db1
+      internalID: 699018901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_36
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 942
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd58d21c650b54d48bd4c3ab1967c36a
+      internalID: -1912193202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_37
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 937
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8348cd790520b3e4f8dea2d3bbcead0d
+      internalID: 49145344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_38
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 941
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2af3a37fe995374fa0b01ee319df23d
+      internalID: 1931384477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_39
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 940
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320e5094294956845bb12621dfa1eee0
+      internalID: 1685802601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_40
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 936
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180bd9091bea59b45adeefb33f8aac9b
+      internalID: 1727550310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_41
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 941
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb098b70df85b644907117df8459707
+      internalID: -1334758149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_42
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 420
+        width: 107
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b80c9bd75058f41b998a159ef56a40
+      internalID: -1097474202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_43
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 748
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4ecfe1af53e63439eabe71be86542f
+      internalID: -1778297008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_44
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 420
+        width: 115
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24715b5d4f3d27a4e81651b104846cd9
+      internalID: -223404488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_45
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 747
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7133b2464e351294aaadfc6e8430ec83
+      internalID: -1778232355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_46
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 420
+        width: 127
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78956ceedb53fde41b2584260b9ba2d0
+      internalID: 1440099491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_47
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 746
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8b63f802f633d4ea3ffc00007e65a4
+      internalID: -668801554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_48
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 420
+        width: 139
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefe37c9d1cc72946b795d72b9d53edb
+      internalID: -367036034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_49
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 420
+        width: 124
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93d4b08fdd012649a096dcf8c5b8bfe
+      internalID: -1392084748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_50
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 420
+        width: 115
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b969365fb9e47a4b80b5fd0bb80c430
+      internalID: 267350739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_51
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 747
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de1019adeaa40648af0b9f5b835b01d
+      internalID: -984131310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_52
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 420
+        width: 116
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288f9af0df2d2514f86d4aeccd734912
+      internalID: 1688569720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_53
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 746
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4144529d42c2f1d4b9ffe2a2f5b03b0d
+      internalID: 1063825696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_54
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 420
+        width: 134
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04876dcb59277604fa28b678722ee752
+      internalID: 2063941825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_55
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 420
+        width: 116
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd2543f00bf8ce4dafbb405bffc4c1c
+      internalID: 1232342580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_56
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 420
+        width: 115
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b0ab32355b7704c85252c105d64ed0
+      internalID: 1806280737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_57
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 747
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d261104a8a2c54f9c74081451f9f9c
+      internalID: -1037846719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_58
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 744
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a75057b7667ac4f8926ff21b3703d8
+      internalID: -811506628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_59
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 688
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85d7750b2b522b47ad8f21378a30fd3
+      internalID: -1151879615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_60
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 520
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8732490cbb368b4eb1f9c756af4968f
+      internalID: -669259616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_61
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 521
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fd70f6461a22e498a821633958b543
+      internalID: -1359814912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_62
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 516
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76e24df242b3b747b549c8bc1d6531b
+      internalID: 1389254043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_63
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 521
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9db6c9bef00f01439b8aaaa11f2b099
+      internalID: 1681312569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_64
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 119
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec380f0c4dd54f4891ba3fd42e5e800
+      internalID: 886206229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_65
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 125
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a94a7d38902f674b8339be5d72f8baf
+      internalID: -789712500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_66
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 119
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6672d6512cee0d46aa62e0f30d3cc21
+      internalID: 1740792976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_67
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 125
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6d5e9d68faed5488dfa6b444a9b8be
+      internalID: -315370056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_68
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 119
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b132f9bce511fd74ba06e5af6d9c3e43
+      internalID: -837805128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_69
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 125
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2568e9e7715809418f0f4a2960684c5
+      internalID: 1691808168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_70
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 119
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fb5f560b55c164cbbfd8e7beba23bd
+      internalID: 241453373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_71
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 0
+        width: 125
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393766c7ca24f6a4bb53847dab5faeff
+      internalID: 852671470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_72
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 119
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c19d7b03b65f547ab7d8b412260a92
+      internalID: 1865031440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_73
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 0
+        width: 125
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f51a6d0e92dfa448a19ca3eb6d3623
+      internalID: -1273885176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_74
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 119
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b44a37f1bf8c24aac106335129a076
+      internalID: 2035402924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_75
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 0
+        width: 125
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac3a0423f6bef44c844a20fe7d0989d
+      internalID: 3209205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_76
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 119
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb6598c47ec79648a167eee977793e4
+      internalID: -1272265707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_77
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 0
+        width: 125
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d2546aa26001a4cb1c2b03a406025b
+      internalID: 803803502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_78
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 119
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307865e78c604964dbbd6cea41723b04
+      internalID: -1650757614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_79
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 0
+        width: 125
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7217985f35fdee44bc72011e4361c2b
+      internalID: -1251004873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_80
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 119
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56de4df843ceec947809fc1648af4d03
+      internalID: 1319140890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_81
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 0
+        width: 125
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e063f6a167bfa4045a4523cf32b0119f
+      internalID: -699189630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_82
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 119
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa09cf3de1c486d408a53a63083abac2
+      internalID: 1019094917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $SMS2X_83
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 0
+        width: 125
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0185d0406e53564f87d6999b4ec2075
+      internalID: -881755847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      $SMS2X_0: 1562476986
+      $SMS2X_1: -1395093100
+      $SMS2X_10: -40302719
+      $SMS2X_11: -1214605919
+      $SMS2X_12: -1546332796
+      $SMS2X_13: 1016164552
+      $SMS2X_14: -810574562
+      $SMS2X_15: 1411222942
+      $SMS2X_16: -45602014
+      $SMS2X_17: -994572541
+      $SMS2X_18: 637044441
+      $SMS2X_19: 503416027
+      $SMS2X_2: -101946898
+      $SMS2X_20: 1070771392
+      $SMS2X_21: 432671301
+      $SMS2X_22: -1823251647
+      $SMS2X_23: 1261359031
+      $SMS2X_24: 935672762
+      $SMS2X_25: 2077313579
+      $SMS2X_26: 1388341032
+      $SMS2X_27: -297725085
+      $SMS2X_28: -1035211989
+      $SMS2X_29: 666913520
+      $SMS2X_3: -39593500
+      $SMS2X_30: -1464964614
+      $SMS2X_31: -476754740
+      $SMS2X_32: -651341705
+      $SMS2X_33: 1357960750
+      $SMS2X_34: -625888309
+      $SMS2X_35: 699018901
+      $SMS2X_36: -1912193202
+      $SMS2X_37: 49145344
+      $SMS2X_38: 1931384477
+      $SMS2X_39: 1685802601
+      $SMS2X_4: 560583426
+      $SMS2X_40: 1727550310
+      $SMS2X_41: -1334758149
+      $SMS2X_42: -1097474202
+      $SMS2X_43: -1778297008
+      $SMS2X_44: -223404488
+      $SMS2X_45: -1778232355
+      $SMS2X_46: 1440099491
+      $SMS2X_47: -668801554
+      $SMS2X_48: -367036034
+      $SMS2X_49: -1392084748
+      $SMS2X_5: 768004786
+      $SMS2X_50: 267350739
+      $SMS2X_51: -984131310
+      $SMS2X_52: 1688569720
+      $SMS2X_53: 1063825696
+      $SMS2X_54: 2063941825
+      $SMS2X_55: 1232342580
+      $SMS2X_56: 1806280737
+      $SMS2X_57: -1037846719
+      $SMS2X_58: -811506628
+      $SMS2X_59: -1151879615
+      $SMS2X_6: 1114833540
+      $SMS2X_60: -669259616
+      $SMS2X_61: -1359814912
+      $SMS2X_62: 1389254043
+      $SMS2X_63: 1681312569
+      $SMS2X_64: 886206229
+      $SMS2X_65: -789712500
+      $SMS2X_66: 1740792976
+      $SMS2X_67: -315370056
+      $SMS2X_68: -837805128
+      $SMS2X_69: 1691808168
+      $SMS2X_7: 361217041
+      $SMS2X_70: 241453373
+      $SMS2X_71: 852671470
+      $SMS2X_72: 1865031440
+      $SMS2X_73: -1273885176
+      $SMS2X_74: 2035402924
+      $SMS2X_75: 3209205
+      $SMS2X_76: -1272265707
+      $SMS2X_77: 803803502
+      $SMS2X_78: -1650757614
+      $SMS2X_79: -1251004873
+      $SMS2X_8: -124108604
+      $SMS2X_80: 1319140890
+      $SMS2X_81: -699189630
+      $SMS2X_82: 1019094917
+      $SMS2X_83: -881755847
+      $SMS2X_9: -1002298890
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

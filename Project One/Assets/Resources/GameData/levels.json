@@ -1,0 +1,81 @@
+{
+  "levels": [
+    {
+      "id": 1.0,
+      "name": "雨夜来访-1",
+      "description": "\"事情比较紧急，只能在 这个时间来打扰你了。\"",
+      "imagePath": "Portraits/1",
+      "sceneName": "JungleAdventure"
+    },
+    {
+      "id": 2.0,
+      "name": "雨夜来访-2",
+      "description": "\"那么急的敲门声，又是那么奇怪的时间，我已经猜到是你了。\"",
+      "imagePath": "Portraits/2",
+      "sceneName": "JungleAdventure"
+    },
+    {
+      "id": 3.0,
+      "name": "雨夜来访-3",
+      "description": "\"资料在这里，你可以看看，我再一边跟你解释下情况。\"",
+      "imagePath": "Portraits/3",
+      "sceneName": "JungleAdventure"
+    },
+    {
+      "id": 4.0,
+      "name": "雨夜来访-4",
+      "description": "\"死者是背面遭到攻击。\"",
+      "imagePath": "Portraits/1",
+      "sceneName": "JungleAdventure"
+    },
+    {
+      "id": 5.0,
+      "name": "雨夜来访-5",
+      "description": "\"对的，所以没有反抗的痕迹。\"",
+      "imagePath": "Portraits/2",
+      "sceneName": "JungleAdventure"
+    },
+    {
+      "id": 6.0,
+      "name": "雨夜来访-6",
+      "description": "\"确实很奇怪。\"",
+      "imagePath": "Portraits/3",
+      "sceneName": "JungleAdventure"
+    },
+    {
+      "id": 7.0,
+      "name": "雨夜来访-7",
+      "description": "\"一般机器人失灵不应该会“挑选”时机。\"",
+      "imagePath": "Portraits/1",
+      "sceneName": "JungleAdventure"
+    },
+    {
+      "id": 8.0,
+      "name": "雨夜来访-8",
+      "description": "\"你看第二张照片。\"",
+      "imagePath": "Portraits/2",
+      "sceneName": "JungleAdventure"
+    },
+    {
+      "id": 9.0,
+      "name": "雨夜来访-9",
+      "description": "\"这是！\"",
+      "imagePath": "Portraits/3",
+      "sceneName": "JungleAdventure"
+    },
+    {
+      "id": 10.0,
+      "name": "雨夜来访-10",
+      "description": "\"凶手在攻击之前，还有一些犹豫。\"",
+      "imagePath": "Portraits/1",
+      "sceneName": "JungleAdventure"
+    },
+    {
+      "id": 11.0,
+      "name": "雨夜来访-11",
+      "description": "\"他曾经想过用这把刀，但是最终放弃了。\"",
+      "imagePath": "Portraits/2",
+      "sceneName": "JungleAdventure"
+    }
+  ]
+}
