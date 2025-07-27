@@ -32,7 +32,7 @@ public class EnterSceneComand : Controller
         Debug.Log("进入场景" + e.id);
         //RegisterView(GameObject.Find("ryGameSpwan").GetComponent<ryGameSpwan>());
         RegisterView(GameObject.Find("Canvas").transform.Find("UICountDown").GetComponent<UICountDown>());
-        RegisterView(GameObject.Find("head").GetComponent<AIHead>());
+        //RegisterView(GameObject.Find("head").GetComponent<AIHead>());
         RegisterView(GameObject.Find("RhythmGuide").GetComponent<RhythmGuideLine>());
         RegisterController(Consts.E_headError, typeof(HeadErrorComand));
         RegisterController(Consts.E_headRight, typeof(HeadRightComand));
