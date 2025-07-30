@@ -16,8 +16,11 @@ public enum StateType
     Patrol,
     Interace,
     Jump,
+    Stairs,
     Climb,
-    Fall
+    Fall,
+    Land,
+    Hang//挂靠状态
 
 }
 public interface IState
@@ -98,16 +101,4 @@ public class FSM
         currentState.OnCheck();
 
     }
-}
-
-
-public class a
-{
-    int add;
-}
-
-public class b : a
-{
-    int dfdf;
-    int add;
 }

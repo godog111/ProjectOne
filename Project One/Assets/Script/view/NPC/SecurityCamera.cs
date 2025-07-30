@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-[RequireComponent(typeof(SpriteRenderer), typeof(AudioSource))]
+[RequireComponent(typeof(SpriteRenderer))]
 public class SecurityCamera : MonoBehaviour
 {
     [Header("Detection Settings")]
@@ -37,8 +37,8 @@ public class SecurityCamera : MonoBehaviour
     public Color alertColor = Color.red;
     [Tooltip("警报灯光对象（可选）")]
     public GameObject alertLight;
-    [Tooltip("警报音效（可选）")]
-    public AudioClip alertSound;
+    //[Tooltip("警报音效（可选）")]
+    //public AudioClip alertSound;
     
     [Header("Rendering Settings")]
     [Tooltip("视野锥形的渲染排序层级")]
@@ -298,10 +298,10 @@ public class SecurityCamera : MonoBehaviour
         
         if (alertLight != null) alertLight.SetActive(true);
         
-        if (alertSound != null && audioSource != null)
+       /* if (alertSound != null && audioSource != null)
         {
             audioSource.PlayOneShot(alertSound);
-        }
+        }*/
         
         if (visionConeMeshRenderer != null)
         {

@@ -436,13 +436,13 @@ public class SoldierPatrolState : IState
     public void OnEnter(object data = null)
     {
         // 进入巡逻状态
-        Debug.Log("进入巡逻状态");
+        //Debug.Log("进入巡逻状态");
     }
 
     public void OnExit()
     {
         // 退出巡逻状态
-        Debug.Log("退出巡逻状态");
+      //  Debug.Log("退出巡逻状态");
     }
 
     public void OnFixUpdate()
