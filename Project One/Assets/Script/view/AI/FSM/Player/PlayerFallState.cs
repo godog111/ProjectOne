@@ -63,11 +63,12 @@ public class PlayerFallState : IState
         {
             fsm.SwitchState(StateType.Climb);
         }
-        
-        if (board.isLedgeDetected)
-            {
-                fsm.SwitchState(StateType.Hang);
-            }
+
+        if (board.rb.velocity.y <= 0 && board.isLedgeDetected)
+        {
+            Debug.Log("下坠到边缘");
+            fsm.SwitchState(StateType.Hang);
+        }
     }
 
     public void OnUpdate()

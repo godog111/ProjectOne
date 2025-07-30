@@ -5,6 +5,8 @@ public class PlayerHangState : IState
     private FSM fsm;
     private PlayerBoard board;
 
+    private Vector2 correctedHangPosition;// 在OnEnter中存储修正后的挂靠位置
+
     public PlayerHangState(FSM fsm)
     {
         this.fsm = fsm;
@@ -13,37 +15,22 @@ public class PlayerHangState : IState
 
     public void OnEnter(object data = null)
     {
-        // 计算角色顶部Y坐标
-        float playerTopY = board.rb.position.y + board.playerColliderHeight;
-        if (playerTopY >= board.detectedLedgePosition.y)
-        {
-            // 直接吸附到平台顶部
-            float directionEnter = Mathf.Sign(board.playerTransform.localScale.x);
-            float targetX = board.detectedLedgePosition.x + (directionEnter * board.climbFinalXOffset);
-            float targetY = board.detectedLedgePosition.y - board.playerColliderHeight;
-            
-            board.rb.position = new Vector2(targetX, targetY);
-            fsm.SwitchState(StateType.Idle);
-            return;
-        }
-        // 确保Y坐标与挂靠点完全一致
+        Debug.Log("挂靠点"+board.lastLedgeTopPosition.y+"角色高度"+board.playerColliderHeight+"修正点高度"+board.ledgeGrabVerticalOffset);
+        // 使用记录的平台顶部坐标进行修正
+        float targetY = board.lastLedgeTopPosition.y - board.playerColliderHeight+ board.ledgeGrabVerticalOffset;
         float direction = Mathf.Sign(board.playerTransform.localScale.x);
         
-        // 直接使用检测到的边缘位置Y值（不再添加任何偏移）
-        board.rb.position = new Vector2(
+        // 水平位置使用最新检测结果，垂直位置使用修正值
+            correctedHangPosition = new Vector2(
             board.detectedLedgePosition.x - (direction * board.ledgeGrabHorizontalOffset),
-            board.detectedLedgePosition.y // 直接使用原始Y值
-        );
-        
-        // 停止物理运动
+            targetY
+             );
+
+        // 保持原有物理和状态设置
+        board.rb.position = correctedHangPosition;
         board.rb.velocity = Vector2.zero;
         board.rb.gravityScale = 0;
-        
-        // 更新状态
         board.isCurrentlyHanging = true;
-        board.isLedgeDetected = true;
-        
-        // 播放动画
         board.animator.Play("code0_hung");
     }
 
@@ -58,12 +45,7 @@ public class PlayerHangState : IState
 
     public void OnFixUpdate()
     {
-        // 保持位置（确保Y轴始终对齐）
-        float direction = Mathf.Sign(board.playerTransform.localScale.x);
-        board.rb.position = new Vector2(
-            board.detectedLedgePosition.x - (direction * board.ledgeGrabHorizontalOffset),
-            board.detectedLedgePosition.y // 每帧强制对齐Y轴
-        );
+        board.rb.position = correctedHangPosition;
     }
 
     public void OnCheck()

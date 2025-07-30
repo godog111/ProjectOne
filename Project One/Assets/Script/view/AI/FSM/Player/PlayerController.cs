@@ -25,9 +25,9 @@ public class PlayerBoard : BlackBoard
 
     [Header("边缘攀爬参数")]
     // 移除 ledgeClimbOffset
-    [SerializeField] public float ledgeDetectionRange = 0.3f;
+    [SerializeField] public float ledgeDetectionRange = 0.5f;
     [Tooltip("挂靠时角色的Y坐标将完全对齐检测点，此参数仅控制水平偏移")]
-    [SerializeField] public float ledgeGrabHorizontalOffset = 0.2f; // 保持水平抓取偏移
+    [SerializeField] public float ledgeGrabHorizontalOffset = 0.3f; // 保持水平抓取偏移
     [SerializeField] public float ledgeGrabVerticalOffset = 0.1f;  // 保持垂直抓取偏移
     [SerializeField] public Transform ledgeDetectTop;
     [SerializeField] public Transform ledgeDetectMid;
@@ -66,8 +66,10 @@ public class PlayerBoard : BlackBoard
     [Range(0.1f, 1f)] public float climbSmoothing = 0.5f;
 
     [Tooltip("角色碰撞器高度")]
-    [SerializeField] public float playerColliderHeight = 0.5f;
-    
+    [SerializeField] public float playerColliderHeight = 1f;
+    [Header("状态变量")]
+    [HideInInspector] public Vector2 lastLedgeTopPosition; // 新增：上次成功挂靠的平台顶部坐标
+    [HideInInspector] public Collider2D lastLedgeCollider; // 新增：上次挂靠的碰撞体
 
     public bool IsValid()
     {
@@ -127,19 +129,19 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         if (!fsmInitialized || board == null || fsm == null) return;
-        
+
         // 基础状态检测
         board.isGrounded = Physics2D.OverlapCircle(
             board.groundCheck.position,
             board.groundCheckRadius,
             board.groundLayer
         );
-        
+
         board.moveInput = Input.GetAxisRaw("Horizontal");
-        
+
         // 边缘和障碍物检测
         board.isLedgeDetected = CheckLedgeOrObstacle();
-        Debug.Log(board.isLedgeDetected);
+        //Debug.Log(board.isLedgeDetected);
         fsm.OnUpdate();
         fsm.OnCheck();
 
@@ -148,28 +150,32 @@ public class PlayerController : MonoBehaviour
         {
             board.isLedgeDetected = CheckLedgeOrObstacle();
         }
-        
+
         // 状态转换逻辑
         if (board.isLedgeDetected &&
-           (fsm.currentState is PlayerJumpState || fsm.currentState is PlayerFallState))
+        (fsm.currentState is PlayerJumpState || fsm.currentState is PlayerFallState))
         {
             fsm.SwitchState(StateType.Hang);
         }
+        Debug.Log(board.isLedgeDetected+"抓取边缘");
     }
 
     private bool CheckLedgeOrObstacle()
     {
         if (board.isCurrentlyHanging) return true;
-        float direction = Mathf.Sign(board.playerTransform.localScale.x);
         
-        // 1. 优先检测平台边缘（原有逻辑）
+        float direction = Mathf.Sign(board.playerTransform.localScale.x);
+        Vector2 rayOrigin = board.ledgeDetectTop.position;
+        
+        // 1. 检测平台边缘
         RaycastHit2D topHit = Physics2D.Raycast(
-            board.ledgeDetectTop.position,
+            rayOrigin,
             Vector2.right * direction,
             board.ledgeDetectionRange,
             board.groundLayer
         );
         
+        // 检测中间是否有空隙
         bool midCheck = !Physics2D.Raycast(
             board.ledgeDetectMid.position,
             Vector2.right * direction,
@@ -179,40 +185,56 @@ public class PlayerController : MonoBehaviour
         
         if (topHit.collider != null && midCheck)
         {
+            // 计算精确的挂靠位置
+            float platformTopY = topHit.point.y;
             board.detectedLedgePosition = new Vector2(
                 topHit.point.x - (direction * board.ledgeGrabHorizontalOffset),
-                topHit.point.y - board.ledgeGrabVerticalOffset
+                platformTopY
             );
+            
+            // 记录最后检测到的边缘顶部位置和碰撞体
+            board.lastLedgeTopPosition = new Vector2(
+                topHit.point.x,
+                platformTopY
+            );
+            board.lastLedgeCollider = topHit.collider;
             return true;
         }
         
-        // 2. 改进的障碍物检测逻辑
-        // 从玩家头顶向斜上方检测障碍物
-        Vector2 obstacleCheckStart = board.ledgeDetectTop.position;
+        // 2. 障碍物检测
+        Vector2 obstacleDir = new Vector2(direction, 1).normalized;
         RaycastHit2D obstacleHit = Physics2D.Raycast(
-            obstacleCheckStart,
-            new Vector2(direction, 1).normalized, // 45度角斜向检测
-            board.ledgeDetectionRange * 1.5f,    // 稍长的检测距离
+            rayOrigin,
+            obstacleDir,
+            board.ledgeDetectionRange * 1.5f,
             board.groundLayer
         );
         
         if (obstacleHit.collider != null)
         {
-            // 从障碍物碰撞点向下检测，确认是否有可抓取的边缘
+            // 从碰撞点向下检测确认是否是边缘
             RaycastHit2D downHit = Physics2D.Raycast(
                 new Vector2(obstacleHit.point.x, obstacleHit.point.y - 0.1f),
                 Vector2.down,
-                board.ledgeGrabVerticalOffset * 2f,
+                board.playerColliderHeight * 0.8f,
                 board.groundLayer
             );
             
-            // 如果没有检测到下方碰撞，说明这是可抓取的边缘
             if (downHit.collider == null)
             {
+                // 使用障碍物的顶部作为平台顶部
+                float platformTopY = obstacleHit.point.y;
                 board.detectedLedgePosition = new Vector2(
                     obstacleHit.point.x - (direction * board.ledgeGrabHorizontalOffset),
-                    obstacleHit.point.y - board.ledgeGrabVerticalOffset
+                    platformTopY
                 );
+                
+                // 记录最后检测到的边缘顶部位置和碰撞体
+                board.lastLedgeTopPosition = new Vector2(
+                    obstacleHit.point.x,
+                    platformTopY
+                );
+                board.lastLedgeCollider = obstacleHit.collider;
                 return true;
             }
         }

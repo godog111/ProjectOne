@@ -56,25 +56,21 @@ public class PlayerJumpState : IState
 
     public void OnCheck()
     {
-        if (!Mathf.Approximately(board.rb.velocity.y, 0f))
+        // 检查是否开始下落
+        if (board.rb.velocity.y < -0.1f) // 增加阈值避免误判
         {
-            // 检查是否开始下落
-            if (board.rb.velocity.y < 0)
-            {
-                Debug.Log("进入下落状态");
-                fsm.SwitchState(StateType.Fall);
-            }
-            // 检查是否在楼梯上并尝试攀爬
-            else if (board.isOnStairs && Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.1f)
-            {
-                fsm.SwitchState(StateType.Climb);
-            }
+            fsm.SwitchState(StateType.Fall);
         }
-
-        if (board.isLedgeDetected)
-            {
-                fsm.SwitchState(StateType.Hang);
-            }
+        else if (board.isOnStairs && Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.1f)
+        {
+            fsm.SwitchState(StateType.Climb);
+        }
+        
+        // 只有在下降阶段才检查边缘
+        if (board.rb.velocity.y <= 0 && board.isLedgeDetected)
+        {
+            fsm.SwitchState(StateType.Hang);
+        }
     }
 
     public void OnUpdate()
